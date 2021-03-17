@@ -26,6 +26,7 @@
     "cypress:open": "cypress open",
     "cypress:dashboard": "cypress run --record --key",
     "e2e:chrome": "cypress run --browser chrome --headless",
-    "e2e:firefox": "cypress run --browser firefox --headless"
+    "e2e:firefox": "cypress run --browser firefox --headless",
+    "run:docker": "docker build -f Dockerfile -t todoappcypress ."
   }
 }
